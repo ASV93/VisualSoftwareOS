@@ -203,7 +203,7 @@ option_screen:
 	os_init_msg		db 'Welcome to the Visual Software Operating System CodeName ', VSOS_CODENAME, 0 	;BETA
 	;os_version_msg		db 'Version ', VSOS_VER, 0														;RTM
 	os_version_msg		db 'Version ', VSOS_VER, ' Build ', VSOS_BUILD, 0								;BETA
-	dialog_string_1		db '! VISUAL SOFTWARE CONFIDENTIAL !', 0
+	dialog_string_1		db '! VISUAL SOFTWARE CORPORATION !', 0
 	dialog_string_2		db 'Press OK to load the GUI', 0
 	dialog_string_3		db 'Press Cancel to load the CLI', 0
 

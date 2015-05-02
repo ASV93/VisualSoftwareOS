@@ -1,6 +1,6 @@
 *-------------------------------------------------------*
 |                                                       |
-|   File Name: Readme.txt                               |
+|   File Name: Help.txt                                 |
 |   Description: Help File		                |
 |                                                       |
 |   Visual Software Operating System		        |
@@ -14,6 +14,6 @@ INCLUDE (DIR)		Contains files which will be included with the OS
 KERNEL (DIR)		Contains the source code of the kernel
 BUILDWIN.BAT		Batch file that compiles the operating system and the apps under Windows
 NASM.EXE		ASM compiler (Windows)
-README.TXT		This help file
+HELP.TXT		This help file
 PARTCOPY.EXE		Adds a bootsector to floppy images
 IMDISK.EXE		Creates a Virtual Floppy filesystem [ /!\ Not included in this release ]
