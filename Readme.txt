@@ -1,0 +1,19 @@
+*-------------------------------------------------------*
+|                                                       |
+|   File Name: Readme.txt                               |
+|   Description: Help File		                |
+|                                                       |
+|   Visual Software Operating System		        |
+|                                                       |
+*-------------------------------------------------------*
+
+APPS (DIR)		Directory where applications are located, ASM apps will be recompiled each time the OS is recompiled
+BIN (DIR)		Directory where the OS with apps is located, ready to run
+BOOTLOAD (DIR)		Contains the source code of the bootloader
+INCLUDE (DIR)		Contains files which will be included with the OS
+KERNEL (DIR)		Contains the source code of the kernel
+BUILDWIN.BAT		Batch file that compiles the operating system and the apps under Windows
+NASM.EXE		ASM compiler (Windows)
+README.TXT		This help file
+PARTCOPY.EXE		Adds a bootsector to floppy images
+IMDISK.EXE		Creates a Virtual Floppy filesystem [ /!\ Not included in this release ]
