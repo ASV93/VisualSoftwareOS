@@ -11,6 +11,7 @@ echo.
 echo Building Visual Software Operating System...
 echo.
 
+mkdir Bin
 echo Assembling Bootloader...
 nasm -O0 -f bin -o bootload/bootload.bin bootload/bootload.asm
 
